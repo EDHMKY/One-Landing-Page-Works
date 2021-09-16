@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Over+the+Rainbow&display=swap');
+
+ font-family: 'Dancing Script', cursive;
+font-size: 15px;
+padding: 0;
+margin: 0;
+line-height: 1.5;
+background-color: #black;
+}
+.container {
+    width: 80%;
+    margin: auto;
+   overflow to hidden will hide/clip the overflowing content. */
+    overflow: hidden;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .btn-1 {
+    height: 38px;
+    background-color: #eb4442;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+  }
+  
+  .light, .dark {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .light {
+    background-color: #e6e6e6;
+    color: #2d2b3e;
+  }
+  
+  .dark {
+    background-color: #2d2b3e;
+    color: #fff;
+  }
+  
+
+<body>
+
+#showcase {
+    min-height: 400px;
+    background-image: url('UHHHHH.jpg');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: grey;
+  }
+  
+  #showcase h1 {
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-size: 55px;
+  }
+  
+  #showcase p {
+    font-size: 20px;
+  }
+
+.container {
+width: 80%;
+margin: auto;
+
+overflow: hidden;
+}
+
+ul {
+margin: 0;
+padding: 0;
+}
+
+.btn-1 {
+height: 38px;
+background-color: rgba(175, 173, 173, 0.87);
+border: 0;
+padding-left: 20px;
+padding-right: 20px;
+color: #fff;
+}
+
+.light, .dark {
+padding: 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.light {
+background-color: #f5eded;
+color: #a09fa3bb;
+}
+
+.dark {
+background-color: #03030300;
+color: #fff;
+}
+
+
+header {
+background-color: #2d2b3e;
+color: #fff;
+
+min-height: 70px;
+border-bottom: 3px solid #242222;
+padding: 5px 0;
+}
+
+header .container {
+display: flex;
+justify-content: space-between;
+}
+
+header ul {
+height: 100%;
+display: flex;
+align-items: center;
+}
+
+header li {
+
+list-style: none;
+padding: 0 20px;
+}
+
+header a {
+color: #fff;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 18px;
+}
+
+header .highlight, header #current a {
+color: #faf6f6;
+font-weight: bold;
+}
+
+header a:hover {
+color: #ccc;
+font-weight: bold;
+}
+font-family: 'Dancing Script', cursive;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  background-color: #eee;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.btn-1 {
+  height: 38px;
+  background-color: #fff;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.light, .dark {
+  padding: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.light {
+  background-color: #e6e6e6;
+  color: #2d2b3e;
+}
+
+.dark {
+  background-color: #030303;
+  color: #fff;
+}
+
+
+header {
+  background-color: #030303;
+  color: #fff;
+  
+  min-height: 70px;
+  border-bottom: 3px solid #0c0c0c;
+  padding: 5px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+header li {
+  
+  list-style: none;
+  padding: 0 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+header .highlight, header #current a {
+  color: #fdfcfc;
+  font-weight: solid;
+}
+
+header a:hover {
+  color: #ccc;
+  font-weight: bold;
+}
+* {
+  padding: 0;
+  margin: 0;
+  
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Dancing Script', cursive;
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+a {
+  
+  text-decoration: none;
+  color: #4b5163;
+}
+
+#main {
+  position: relative;
+  
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  
+  padding: 0 20px;
+}
+
+#video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("UHHHHH.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+#cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#content {
+  color: rgb(165, 19, 19);
+  z-index: 2;
+  text-align: center;
+}
+
+#click {
+  
+  display: inline-block;
+  margin-top: 25px;
+  border: 2px solid rgb(190, 34, 34);
+  padding: 10px 30px;
+  background-color: #4b5163;
+  
+  color: rgb(155, 11, 11);
+  border-radius: 10px;
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+#click:hover {
+ 
+  transform: scale(0.95);
+}
+
+#about {
+  padding: 50px;
+  text-align: center;
+}
+
+#about p {
+  font-size: 20px;
+  max-width: 500px;
+  margin: auto;
+}
+
+#about h2 {
+  margin: 40px 0;
+  color: #4b5163;
+}
+
+i {
+  font-size: 48px;
+  margin: 0 5px;
+}
